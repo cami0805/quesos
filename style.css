@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  display: flex;
+  background-color: rgb(203, 200, 200);
+
+}
+
+.logo {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 5px;
+}
+
+i {
+  margin-left: 9rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: center;
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3rem;
+}
+
+nav #toggle {
+  display: none;
+}
+
+nav .menu {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+
+}
+
+nav #toggle:checked~.menu {
+  height: 100%;
+}
+
+
+.imagen {
+  width: 15rem;
+  height: 15rem;
+  border: solid 2px gray;
+  border-radius: 10% 0% 10% 0%;
+  margin-bottom: 1rem;
+  transition: transform .6s;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+
+}
+
+.imagen:hover {
+  transform: scale(1.2);
+}
+
+h2 {
+  color: blueviolet;
+}
+
+h2:hover {
+  color: brown;
+}
+
+
+
+
+
+
+
